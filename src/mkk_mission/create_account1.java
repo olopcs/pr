@@ -335,7 +335,7 @@ public class create_account1 extends javax.swing.JFrame {
               String query="update bank_record set name='"+txtname.getText()+"',"
                       +"date_of_birth='"+txtbirth.getText()+"',"+"address='"+txtaddress.getText()+"',"+                   
                       "gender='"+txtgender.getText()+"',"+"balance="+txtbalance.getText()+","+
-                      "date_of_joining='"+txtjoining.getText()+"',"+"where account_no="+txtno.getText()+";";
+                      "date_of_joining='"+txtjoining.getText()+"'"+"where account_no="+txtno.getText()+";";
                       System.out.print(""+query);
                       
                  
